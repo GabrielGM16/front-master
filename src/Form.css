@@ -1,0 +1,38 @@
+.container {
+    background-color: lightgray; /* Cambiar por el color deseado */
+    padding: 20px; /* Ajustar el relleno según el diseño */
+    border-radius: 10px; /* Agregar bordes redondeados */
+  }
+  .juan {
+    background-color: rgb(160, 242, 242); /* Cambiar por el color deseado */
+    padding: 10px; /* Ajustar el relleno según el diseño */
+    text-align: left; /* Alinear el texto a la izquierda */
+    border-radius: 5px; /* Agregar bordes redondeados */
+  }
+  
+.form {
+  position: relative;
+
+}
+
+
+.contenedor {
+  background-color: lightgray; /* Cambiar por el color deseado */
+  padding: 20px; /* Ajustar el relleno según el diseño */
+  border-radius: 10px; /* Agregar bordes redondeados */
+  text-align: right;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+  
+  .div1 { grid-area: 1 / 1 / 2 / 6; }
+  .div2 { grid-area: 5 / 1 / 6 / 6; }
+  .div3 { grid-area: 2 / 2 / 5 / 5; }
+  .div4 { grid-area: 2 / 1 / 5 / 2; }
+  .div5 { grid-area: 2 / 5 / 5 / 6; }
